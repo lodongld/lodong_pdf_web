@@ -1,0 +1,216 @@
+    
+    @media print {
+        html, body {
+            width: 210mm;
+            height: 297mm;
+            margin: auto;
+        }
+        .table-cont{
+            /* width: 100%; */
+            width: 210mm;
+            height: 297mm;
+            margin-top: 0 !important;
+            page-break-before:always !important;   
+        }
+        .title-divider{
+            width: 70%;
+            padding: 1px 0;
+            margin: auto;
+            border-top: solid 2pt black;
+            border-bottom: solid 4pt black;
+        }
+        .title{
+            width: 40%;
+            margin: auto;
+            text-align: center;
+        }
+        .h1 h1{
+            margin-bottom: 5px;
+        }
+        .h2{        
+            margin-top: 5px;
+        }
+        .h2{
+            margin-top: 5px;
+            font-size: 10pt
+        }
+        .h3{
+            margin-top: -15px;
+        }
+        
+        .tabletop1label{            
+            width: 100%;
+            margin: 5px auto 0;
+        }
+        .tabletop1label div{
+            display: inline-block;
+            width: 49.5%;
+        }
+        .pag3{
+            text-align: right;
+        }
+        table{
+            width: 100%;
+            margin: auto;
+            padding: 0 !important;
+            border-collapse: collapse;   
+            border-bottom: solid 1px;        
+            font-weight: lighter;
+        }
+        thead tr{
+            border-bottom: solid 1px rgb(83, 83, 83);
+            border-top: solid 1px rgb(83, 83, 83);        
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        thead th{
+            border: solid 1px rgb(83, 83, 83) !important;
+            text-align: center !important;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        tbody td{
+            border-left:solid 1px;
+            border-right:solid 1px;
+            padding: 5px 5px;
+            font-size: 10pt;
+        }
+        tbody td:first-child{
+            padding-left: 35px;
+        }
+        .c1{
+            width: 36.5%;
+            word-break: break-all;
+        }
+        .c2{
+            width: 36.5%;
+            word-break: break-all;
+        }
+        .c3{
+            width: 27%;
+            word-break: break-all;
+        }
+    
+        .totalfist{
+            border-top: solid 1px rgb(83, 83, 83);
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        .totallast{
+            border-bottom: solid 1px rgb(83, 83, 83);
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        .totalfinal{
+            border-bottom: solid 2px rgb(83, 83, 83);
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+    }
+
+    html, body {
+        width: 210mm;
+        height: 297mm;
+        margin: auto;
+    }
+    .table-cont{
+        /* width: 100%; */
+        width: 210mm;
+        height: 297mm;
+        margin-top: 0 !important;
+        page-break-before:always !important;   
+    }
+    .title-divider{
+        width: 55%;
+        padding: 1px 0;
+        margin: auto;
+        border-top: solid 2pt black;
+        border-bottom: solid 4pt black;
+    }
+    .title{
+        width: 55%;
+        margin: auto;
+        text-align: center;
+    }
+    .h1 h1{
+        margin-bottom: 5px;
+    }
+    .h2{        
+        margin-top: 5px;
+    }
+    .h2{
+        margin-top: 5px;
+		font-size: 10pt
+    }
+    .h3{
+        margin-top: -15px;
+    }
+	
+    .tabletop1label{            
+        width: 100%;
+        margin: 25px auto 0;
+    }
+    .tabletop1label div{
+        display: inline-block;
+        width: 49.5%;
+    }
+    .pag3{
+        text-align: right;
+    }
+    table{
+        width: 100%;
+        margin: auto;
+        padding: 0 !important;
+        border-collapse: collapse;   
+        border-bottom: solid 1px;        
+        font-weight: lighter;        
+        font-size: 10pt;
+    }
+    thead tr{
+        border-bottom: solid 1px rgb(83, 83, 83);
+        border-top: solid 1px rgb(83, 83, 83);        
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    thead th{
+        border: solid 1px rgb(83, 83, 83) !important;
+        text-align: center !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    tbody td{
+        border-left:solid 1px;
+        border-right:solid 1px;
+        padding: 5px 5px;
+    }
+    tbody td:first-child{
+        padding-left: 35px;
+    }
+    .c1{
+        width: 36.5%;
+        word-break: break-all;
+    }
+    .c2{
+        width: 36.5%;
+        word-break: break-all;
+    }
+    .c3{
+        width: 27%;
+        word-break: break-all;
+    }
+
+    .totalfist{
+        border-top: solid 1px rgb(83, 83, 83);
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    .totallast{
+        border-bottom: solid 1px rgb(83, 83, 83);
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    .totalfinal{
+        border-bottom: solid 2px rgb(83, 83, 83);
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }

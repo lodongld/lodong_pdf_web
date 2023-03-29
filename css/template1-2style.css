@@ -1,0 +1,221 @@
+    @media print {
+        html, body {
+            width: 210mm;
+            height: 297mm;
+            margin: auto;
+        }
+        .table-cont{
+            /* width: 100%; */
+            width: 210mm;
+            height: 297mm;
+            margin-top: 0 !important;
+            page-break-before:always !important;   
+        }
+        .title{
+            width: 40%;
+            margin: auto;
+            text-align: center;
+        }
+        .h1{
+            border-bottom: solid 1px;
+        }
+        .h1 h1{
+            margin-bottom: 5px;
+        }
+        .h2{
+            border-top: solid 4px;
+            margin-top: 5px;
+        }
+        .h2 h4{
+            margin-top: 5px;
+        }
+        .tabletop1label{            
+            width: 100%;
+            margin: 0 auto 0 !important;
+        }
+        .tabletop1label div{
+            display: block;
+            float: left;
+            width: 49%;
+            margin-bottom: 3px; 
+        }
+        .pag1{
+            padding-top: 30px;
+        }
+        table{
+            width: 100%;
+            margin: auto;
+            padding: 0 !important;
+            border-collapse: collapse;  
+        }
+    
+        thead th{
+            border: solid 1px rgb(83, 83, 83);
+            text-align: center !important;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+    
+        tbody td{
+            padding: 3px 5px;
+            font-size: 9pt;
+        }
+    
+        tbody td:first-child{
+            border-left: transparent;
+        }
+        tbody td:last-child{
+            border-right: transparent;
+        }
+    
+        thead .c3{
+            border-left: transparent;
+        }
+        thead .c2{
+            border-right: transparent;
+        }
+    
+        .c1{
+            width: 12%;
+            word-break: break-all;
+        }
+        .c2,.c3{
+            width: 15%;
+            word-break: break-all;
+        }
+        .c4,.c5,.c6,.c7{
+            width: 14.5%;
+            word-break: break-all;
+        }
+    
+        .totalfist{
+            border-top: solid 1px rgb(83, 83, 83);
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        .totallast{
+            border-bottom: solid 1px rgb(83, 83, 83);
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        .totalfinal{
+            border-bottom: solid 2px rgb(83, 83, 83);
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        .bggray{
+            background-color: rgb(184, 184, 184);
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+    }
+
+    html, body {
+        width: 210mm;
+        height: 297mm;
+        margin: auto;
+    }
+    .table-cont{
+        /* width: 100%; */
+        width: 210mm;
+        height: 297mm;
+        margin-top: 0 !important;
+        page-break-before:always !important;   
+    }
+    .title{
+        width: 40%;
+        margin: auto;
+        text-align: center;
+    }
+    .h1{
+        border-bottom: solid 1px;
+    }
+    .h1 h1{
+        margin-bottom: 5px;
+    }
+    .h2{
+        border-top: solid 4px;
+        margin-top: 5px;
+    }
+    .h2 h4{
+        margin-top: 5px;
+    }
+    .tabletop1label{            
+        width: 100%;
+        margin: 0 auto 0 !important;
+    }
+    .tabletop1label div{
+        display: block;
+        float: left;
+        width: 49%;
+        margin-bottom: 3px; 
+    }
+    .pag1{
+        padding-top: 30px;
+    }
+    table{
+        width: 100%;
+        margin: auto;
+        padding: 0 !important;
+        border-collapse: collapse;  
+    }
+
+    thead th{
+        border: solid 1px rgb(83, 83, 83);
+        text-align: center !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    tbody td{
+        padding: 3px 5px;
+        font-size: 9pt;
+    }
+
+    tbody td:first-child{
+        border-left: transparent;
+    }
+    tbody td:last-child{
+        border-right: transparent;
+    }
+
+    thead .c3{
+        border-left: transparent;
+    }
+    thead .c2{
+        border-right: transparent;
+    }
+
+    .c1{
+        width: 12%;
+        word-break: break-all;
+    }
+    .c2,.c3{
+        width: 15%;
+        word-break: break-all;
+    }
+    .c4,.c5,.c6,.c7{
+        width: 14.5%;
+        word-break: break-all;
+    }
+
+    .totalfist{
+        border-top: solid 1px rgb(83, 83, 83);
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    .totallast{
+        border-bottom: solid 1px rgb(83, 83, 83);
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    .totalfinal{
+        border-bottom: solid 2px rgb(83, 83, 83);
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    .bggray{
+        background-color: rgb(184, 184, 184);
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }

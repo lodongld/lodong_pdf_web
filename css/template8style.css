@@ -1,0 +1,208 @@
+
+    @media print {
+        html, body {
+            width: 297mm;
+            height: 195mm;
+            font-size: 10pt;
+            margin: 0 auto;
+        }
+        .table-cont{
+            /* width: 100%; */
+            width: 297mm;
+            height: 195mm;
+            margin-top: 0 !important;
+            page-break-before:always !important;
+        }
+        .title{
+            width: 32%;
+            margin: auto;
+            text-align: center;
+        }
+        .h1{
+            border-bottom: solid 2pt black;
+        }
+        .h1 h1{
+            margin-bottom: 5px;
+        }
+        .h2{
+            border-top: solid 4pt black;
+            margin-top: 5px;
+        }
+        .h2 h4{
+            margin-top: 5px;
+        }
+        .tabletop1label{            
+            width: 100%;
+            margin: 0 auto 5px;
+        }
+        .tabletop1label div{
+            display: inline-block;
+            width: 30%;
+            font-weight: bold;
+            margin-right: 1%;
+            
+        }
+        .pag1{
+            margin-left:35px;
+        }
+        .pag3{
+            text-align: right;
+        }
+        table{
+            width: 100%;
+            margin: auto;
+            padding: 0 !important;
+            border-collapse: collapse;
+        }
+        thead tr{
+            border: solid 1px rgb(83, 83, 83);    
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        thead th{
+            border: solid 1px rgb(83, 83, 83) !important;
+            text-align: center !important;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+            font-weight: bolder;               
+            font-size: 9pt;
+        }
+        tbody td{
+            text-align: center;
+            border: solid 1px rgb(83, 83, 83) !important;
+            padding: 10px 5px;               
+            font-size: 8pt;
+        }
+        .c1, .c3{
+            width: 8%;
+            word-break: break-all;
+        }
+        .c2,.c4,.c5,.c6,.c7,.c8,
+        .c12, .c13, .c14, .c15{
+            width: 7%;
+            word-break: break-all;
+        }
+        .c9,.c10,.c11{
+            width: 4%;
+            word-break: break-all;
+        }
+    
+        .totalfist{
+            border-top: solid 1px rgb(83, 83, 83);
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        .totallast{
+            border-bottom: solid 1px rgb(83, 83, 83);
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        .totalfinal{
+            border-bottom: solid 2px rgb(83, 83, 83);
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+    }
+
+    html, body {
+        width: 297mm;
+        height: 195mm;
+        font-size: 10pt;
+        margin: 0 auto;
+    }
+    .table-cont{
+        /* width: 100%; */
+        width: 297mm;
+        height: 195mm;
+        margin-top: 0 !important;
+        page-break-before:always !important;
+    }
+    .title{
+        width: 32%;
+        margin: auto;
+        text-align: center;
+    }
+    .h1{
+        border-bottom: solid 2pt black;
+    }
+    .h1 h1{
+        margin-bottom: 5px;
+    }
+    .h2{
+        border-top: solid 4pt black;
+        margin-top: 5px;
+    }
+    .h2 h4{
+        margin-top: 5px;
+    }
+    .tabletop1label{            
+        width: 100%;
+        margin: 0 auto 5px;
+    }
+    .tabletop1label div{
+        display: inline-block;
+        width: 30%;
+        font-weight: bold;
+        margin-right: 1%;
+        
+    }
+    .pag1{
+        margin-left:35px;
+    }
+    .pag3{
+        text-align: right;
+    }
+    table{
+        width: 100%;
+        margin: auto;
+        padding: 0 !important;
+        border-collapse: collapse;
+    }
+    thead tr{
+        border: solid 1px rgb(83, 83, 83);    
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    thead th{
+        border: solid 1px rgb(83, 83, 83) !important;
+        text-align: center !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        font-weight: bolder;               
+        font-size: 9pt;
+    }
+    tbody td{
+        text-align: center;
+        border: solid 1px rgb(83, 83, 83) !important;
+        padding: 10px 5px;               
+        font-size: 8pt;
+    }
+    .c1, .c3{
+        width: 8%;
+        word-break: break-all;
+    }
+    .c2,.c4,.c5,.c6,.c7,.c8,
+    .c12, .c13, .c14, .c15{
+        width: 7%;
+        word-break: break-all;
+    }
+    .c9,.c10,.c11{
+        width: 4%;
+        word-break: break-all;
+    }
+
+    .totalfist{
+        border-top: solid 1px rgb(83, 83, 83);
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    .totallast{
+        border-bottom: solid 1px rgb(83, 83, 83);
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    .totalfinal{
+        border-bottom: solid 2px rgb(83, 83, 83);
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }

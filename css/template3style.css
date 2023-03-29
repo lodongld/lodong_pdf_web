@@ -1,0 +1,210 @@
+
+    @media print {
+        html, body {
+            width: 210mm;
+            height: 297mm;
+            margin: auto;
+        }
+        .table-cont{
+            /* width: 100%; */
+            width: 210mm;
+            height: 297mm;
+            margin-top: 0 !important;
+            page-break-before:always !important;   
+        }
+        .title-divider{
+            width: 70%;
+            padding: 1px 0;
+            margin: auto;
+            border-top: solid 2pt black;
+            border-bottom: solid 4pt black;
+        }
+        .title{
+            width: 40%;
+            margin: auto;
+            text-align: center;
+        }
+        .h1 h2{
+            margin-bottom: 5px;
+        }
+        .h2{        
+            margin-top: 5px;
+        }
+        .h2{
+            margin-top: 5px;
+            font-size: 10pt
+        }
+        .h3{
+            margin-top: -15px;
+        }
+        .tabletop1label{            
+            width: 100%;
+            overflow: auto;
+            margin:5px auto 0;
+        }
+        .tabletop1label div{
+            float: left;
+            width: 49%;
+            margin-bottom: 3px;
+        }
+        .pag1{
+            padding: 0 5px;
+        }
+        .pag3{
+            text-align: right;
+        }
+        table{
+            width: 100%;
+            margin: auto;
+            padding: 0 !important;
+            border-collapse: collapse;    
+            border:solid 1px rgb(83, 83, 83);
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+            font-size: 10pt;
+        }
+        tbody tr, thead tr{
+            border-bottom: solid 1px;
+            border-top: solid 1px;
+        }
+        thead th{
+            border-right: solid 1px rgb(83, 83, 83) !important;
+            text-align: center !important;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        tbody td{
+            text-align: center;
+            border: solid 1px rgb(83, 83, 83);
+            padding: 0 5px;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        td div{
+            margin: auto;
+        }
+       .c1{
+            width: 15%;
+            word-break: break-all;
+       }
+       .c2{
+            width: 15%;
+            word-break: break-all;
+       }
+       .c3{
+            width: 25%;
+            word-break: break-all;    
+       }
+       .c4{
+            width: 20%;
+            word-break: break-all;
+        }
+        .c5{
+            width: 25%;
+            word-break: break-all;
+        }
+    }
+
+    html, body {
+        width: 210mm;
+        height: 297mm;
+        margin: auto;
+    }
+    .table-cont{
+        /* width: 100%; */
+        width: 210mm;
+        height: 297mm;
+        margin-top: 0 !important;
+        page-break-before:always !important;   
+    }
+    .title-divider{
+        width: 60%;
+        padding: 1px 0;
+        margin: auto;
+        border-top: solid 2pt black;
+        border-bottom: solid 4pt black;
+    }
+    .title{
+        width: 40%;
+        margin: auto;
+        text-align: center;
+    }
+    .h1 h2{
+        margin-bottom: 5px;
+    }
+    .h2{        
+        margin-top: 5px;
+    }
+    .h2{
+        margin-top: 5px;
+		font-size: 10pt
+    }
+    .h3{
+        margin-top: -15px;
+    }
+    .tabletop1label{            
+        width: 100%;
+        overflow: auto;
+        margin:5px auto 0;
+    }
+    .tabletop1label div{
+        float: left;
+        width: 49%;
+        margin-bottom: 3px;
+    }
+    .pag1{
+        padding: 0 5px;
+    }
+    .pag3{
+        text-align: right;
+    }
+    table{
+        width: 100%;
+        margin: auto;
+        padding: 0 !important;
+        border-collapse: collapse;    
+        border:solid 1px rgb(83, 83, 83);
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        font-size: 10pt;
+    }
+    tbody tr, thead tr{
+        border-bottom: solid 1px;
+        border-top: solid 1px;
+    }
+    thead th{
+        border-right: solid 1px rgb(83, 83, 83) !important;
+        text-align: center !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    tbody td{
+        text-align: center;
+        border: solid 1px rgb(83, 83, 83);
+        padding: 0 5px;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    td div{
+        margin: auto;
+    }
+   .c1{
+        width: 15%;
+        word-break: break-all;
+   }
+   .c2{
+        width: 15%;
+        word-break: break-all;
+   }
+   .c3{
+        width: 25%;
+        word-break: break-all;    
+   }
+   .c4{
+        width: 20%;
+        word-break: break-all;
+    }
+    .c5{
+        width: 25%;
+        word-break: break-all;
+    }

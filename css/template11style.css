@@ -1,0 +1,358 @@
+    
+    @media print {
+        html, body {
+            width: 210mm;
+            height: 297mm;
+            margin: auto;
+        }
+        .table-cont{
+            /* width: 100%; */
+            width: 210mm;
+            height: 297mm;
+            margin-top: 0 !important;
+            page-break-before:always !important;   
+        }
+        .title{
+            width: 100%;
+            margin: auto;
+            text-align: center;
+        }
+        .h1 h1{
+            margin-bottom: -5px;
+        }
+        .h2{
+            margin-top: -5px;
+            letter-spacing: 4px;
+        }
+        .tabletop1label{            
+            width: 100%;
+            overflow: auto;
+            margin: 25px auto 0;
+        }
+        .tabletop1label div{
+            display: block;
+            float: left;
+            width: 47%;
+            font-weight: bold;
+            margin-bottom: 3px;
+            margin-left: 2%;
+            font-size: 8pt;
+        }
+        .pag3{
+            text-align: right;
+        }
+        table{
+            width: 100%;
+            margin: auto;
+            padding: 0 !important;
+            border-collapse: collapse;
+        }
+        /* tbody tr, thead tr{
+            border-bottom: solid 1px rgb(83, 83, 83);
+            border-top: solid 1px rgb(83, 83, 83);
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        } */
+        thead th{
+            text-align: center !important;
+        }
+        tbody td{
+            padding: 5px;
+            font-size: 9pt;
+        }
+        .label{
+            text-align: left;
+            font-weight: bolder;
+        }
+        .trcontent td, .trcontent-head td{
+            border:solid 1px rgb(83, 83, 83);
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+    
+        /* td div{
+            border:solid 1px;
+            height: 40px;        
+        } */
+        thead tr .theadlabel1-tr,
+        thead tr .theadlabel1-tr td{
+            border: 0 !important;
+        }
+        .theadlabel{
+            display: block;
+            width: 100%;
+        }
+        .label1{
+            width: 150px;
+            height: auto !important;
+            padding: 0 !important;
+            text-align: right;
+            float: right;
+        }
+        .trcontent-head{
+            font-weight: bolder;
+        }
+    
+        thead th:first-child,tbody td:first-child{
+            border-left: transparent !important;
+        }
+        thead th:last-child,tbody td:last-child{
+            border-right: transparent !important;
+        }
+    
+        /* set 1 row */
+        .set1 div{
+            margin: auto;
+        }
+        .set1 tbody{
+            border-collapse: collapse;
+        }
+        .set1 .trcontent .c1{     
+            border-left: transparent !important;
+        }
+        .set1 .trcontent .c1{
+            width: 20%;
+            word-wrap: break-word;        
+        }
+        .set1 .trcontent .c2{
+            width: 25%;
+            word-wrap: break-word;
+        }
+        .set1 .trcontent .c3{
+            width: 20%;
+            word-wrap: break-word;
+        }
+        .set1 .trcontent .c4{
+            width: 35%;
+            word-wrap: break-word;        
+        }
+        .set1 .c4{   
+            border-right: transparent !important;
+        }
+    
+        /* set 2 row */
+        .set2 div{
+            margin: auto;
+        }
+        .set2 td:first-child{
+            padding-right: 30px;
+        }
+        .set2 .trcontent-head div{
+            height: auto;
+        }
+        .set2 .c2{
+            width: 20%;
+            word-wrap: break-word;        
+        }
+        .set2 .c1,.set2 .c3,.set2 .c4{
+            width: 26.66%;
+            word-wrap: break-word;
+        }
+    
+        /* set 3 row */  
+        .set3 div{
+            margin: auto;
+        }
+        .set3 .trcontent-head div{
+            height: auto;
+        }
+        .set3 .c1,
+        .set3 .c4{
+            width: 10%;
+            word-break: break-all;
+        }
+        .set3 .c2,
+        .set3 .c3,
+        .set3 .c5,
+        .set3 .c6{
+            width: 20%;
+            word-break: break-all;
+        }
+        .set3 .c1,
+        .set3 .c4{
+            width: 10%;
+            word-break: break-all;
+        }
+        .docnote{
+            font-size: 10pt;
+            margin: 0 auto;
+        }
+    }
+
+    html, body {
+        width: 210mm;
+        height: 297mm;
+        margin: auto;
+    }
+    .table-cont{
+        /* width: 100%; */
+        width: 210mm;
+        height: 297mm;
+        margin-top: 0 !important;
+        page-break-before:always !important;   
+    }
+    .title{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .h1 h1{
+        margin-bottom: -5px;
+    }
+    .h2{
+        margin-top: -5px;
+        letter-spacing: 4px;
+    }
+    .tabletop1label{            
+        width: 100%;
+        overflow: auto;
+        margin: 25px auto 0;
+    }
+    .tabletop1label div{
+        display: block;
+        float: left;
+        width: 47%;
+        font-weight: bold;
+        margin-bottom: 3px;
+        margin-left: 2%;
+        font-size: 8pt;
+    }
+    .pag3{
+        text-align: right;
+    }
+    table{
+        width: 100%;
+        margin: auto;
+        padding: 0 !important;
+        border-collapse: collapse;
+    }
+    /* tbody tr, thead tr{
+        border-bottom: solid 1px rgb(83, 83, 83);
+        border-top: solid 1px rgb(83, 83, 83);
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    } */
+    thead th{
+        text-align: center !important;
+    }
+    tbody td{
+        padding: 5px;
+        font-size: 9pt;
+    }
+    .label{
+        text-align: left;
+        font-weight: bolder;
+    }
+    .trcontent td, .trcontent-head td{
+        border:solid 1px rgb(83, 83, 83);
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    /* td div{
+        border:solid 1px;
+        height: 40px;        
+    } */
+    thead tr .theadlabel1-tr,
+    thead tr .theadlabel1-tr td{
+        border: 0 !important;
+    }
+    .theadlabel{
+        display: block;
+        width: 100%;
+    }
+    .label1{
+        width: 150px;
+        height: auto !important;
+        padding: 0 !important;
+        text-align: right;
+        float: right;
+    }
+    .trcontent-head{
+        font-weight: bolder;
+    }
+
+    thead th:first-child,tbody td:first-child{
+        border-left: transparent !important;
+    }
+    thead th:last-child,tbody td:last-child{
+        border-right: transparent !important;
+    }
+
+    /* set 1 row */
+    .set1 div{
+        margin: auto;
+    }
+    .set1 tbody{
+        border-collapse: collapse;
+    }
+    .set1 .trcontent .c1{     
+        border-left: transparent !important;
+    }
+    .set1 .trcontent .c1{
+        width: 20%;
+        word-wrap: break-word;        
+    }
+    .set1 .trcontent .c2{
+        width: 25%;
+        word-wrap: break-word;
+    }
+    .set1 .trcontent .c3{
+        width: 20%;
+        word-wrap: break-word;
+    }
+    .set1 .trcontent .c4{
+        width: 35%;
+        word-wrap: break-word;        
+    }
+    .set1 .c4{   
+        border-right: transparent !important;
+    }
+
+    /* set 2 row */
+    .set2 div{
+        margin: auto;
+    }
+    .set2 td:first-child{
+        padding-right: 30px;
+    }
+    .set2 .trcontent-head div{
+        height: auto;
+    }
+    .set2 .c2{
+        width: 20%;
+        word-wrap: break-word;        
+    }
+    .set2 .c1,.set2 .c3,.set2 .c4{
+        width: 26.66%;
+        word-wrap: break-word;
+    }
+
+    /* set 3 row */  
+    .set3 div{
+        margin: auto;
+    }
+    .set3 .trcontent-head div{
+        height: auto;
+    }
+    .set3 .c1,
+    .set3 .c4{
+        width: 10%;
+        word-break: break-all;
+    }
+    .set3 .c2,
+    .set3 .c3,
+    .set3 .c5,
+    .set3 .c6{
+        width: 20%;
+        word-break: break-all;
+    }
+    .set3 .c1,
+    .set3 .c4{
+        width: 10%;
+        word-break: break-all;
+    }
+    .docnote{
+        font-size: 10pt;
+        margin: 0 auto;
+    }

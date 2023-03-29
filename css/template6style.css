@@ -1,0 +1,255 @@
+    @media print {
+        html, body {
+            width: 210mm;
+            height: 297mm;
+            margin: auto;
+        }
+        .table-cont{
+            /* width: 100%; */
+            width: 210mm;
+            height: 297mm;
+            margin-top: 0 !important;
+            page-break-before:always !important;   
+        }
+        .title{
+            width: 30%;
+            margin: auto;
+            text-align: center;
+        }
+        .h1{
+            border-bottom: solid 2pt black;
+        }
+        .h2{
+            border-top: solid 4pt black;
+            margin-top: 5px;
+        }
+        .h1 h1{
+            margin-bottom: 5px;
+        }
+        .h2 h4{
+            margin-top: 10px;
+        }
+        .tabletop1label{            
+            width: 100%;
+            overflow: auto;
+            margin: 15px auto 0;
+        }
+        .tabletop1label div{
+            display: block;
+            float: left;
+            width: 30%;
+            margin-bottom: 3px;
+            margin-left: 2%;
+        }
+        .pag1{
+            width: auto !important;
+        }
+        .pag2{
+            margin-left: 5%;
+            padding-left: 5%;
+        }
+        .pag3{
+            text-align: right;
+        }
+        table{
+            width: 100%;
+            margin: auto;
+            padding: 0 !important;
+            border-collapse: collapse;  
+        }
+        thead tr{
+            border-bottom: solid 2px rgb(83, 83, 83);
+            border-top: solid 2px rgb(83, 83, 83);
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        thead th{
+            border: solid 1px rgb(83, 83, 83) !important;
+            text-align: center !important;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        .trhead{
+            border-bottom: solid 1px rgb(83, 83, 83);
+            border-top: solid 1px rgb(83, 83, 83);
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        .trfooter{
+            border-bottom: solid 1px rgb(83, 83, 83);
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        .c1{
+            width: 10%;
+        }
+        .c2{
+            width: 20%;
+            word-break: break-all;
+        }
+        .c3{
+            width: 10%;
+            word-break: break-all;
+        }
+        .c4{
+            width: 15%;
+            word-break: break-all;
+        }
+        .c5{
+            width: 15%;
+            word-break: break-all;
+        }
+        .c6{
+            width: 15%;
+            word-break: break-all;
+        }
+        .c7{
+            width: 15%;
+            word-break: break-all;
+        }
+        .c1,.c2,.c3,.c4{
+            text-align: left;
+        }
+        .c5,.c6,.c7{
+            text-align: right;
+        }
+    
+        .totalfist{
+            border-top: solid 1px;
+        }
+        .totallast{
+            border-bottom: solid 1px;
+        }
+        .totalfinal{
+            border-bottom: solid 2px;
+        }
+    }
+
+    html, body {
+        width: 210mm;
+        height: 297mm;
+        margin: auto;
+    }
+    .table-cont{
+        /* width: 100%; */
+        width: 210mm;
+        height: 297mm;
+        margin-top: 0 !important;
+        page-break-before:always !important;   
+    }
+    .title{
+        width: 30%;
+        margin: auto;
+        text-align: center;
+    }
+    .h1{
+        border-bottom: solid 2pt black;
+    }
+    .h2{
+        border-top: solid 4pt black;
+        margin-top: 5px;
+    }
+    .h1 h1{
+        margin-bottom: 5px;
+    }
+    .h2{
+        margin-top: 5px;
+    }
+    .tabletop1label{            
+        width: 100%;
+        overflow: auto;
+        margin: 15px auto 0;
+    }
+    .tabletop1label div{
+        display: block;
+        float: left;
+        width: 30%;
+        margin-bottom: 3px;
+        margin-left: 2%;
+    }
+    .pag1{
+        width: auto !important;
+    }
+    .pag2{
+        margin-left: 5%;
+        padding-left: 5%;
+    }
+    .pag3{
+        text-align: right;
+    }
+    table{
+        width: 100%;
+        margin: auto;
+        padding: 0 !important;
+        border-collapse: collapse;  
+    }
+    thead tr{
+        border-bottom: solid 2px rgb(83, 83, 83);
+        border-top: solid 2px rgb(83, 83, 83);
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    thead th{
+        border: solid 1px rgb(83, 83, 83) !important;
+        text-align: center !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    .trhead{
+        border-bottom: solid 1px rgb(83, 83, 83);
+        border-top: solid 1px rgb(83, 83, 83);
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    .trfooter{
+        border-bottom: solid 1px rgb(83, 83, 83);
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    tbody td{
+        padding: 0 5px;
+    }
+    .c1{
+        width: 10%;        
+        word-break: break-all;
+    }
+    .c2{
+        width: 20%;
+        word-break: break-all;
+    }
+    .c3{
+        width: 10%;
+        word-break: break-all;
+    }
+    .c4{
+        width: 15%;
+        word-break: break-all;
+    }
+    .c5{
+        width: 15%;
+        word-break: break-all;
+    }
+    .c6{
+        width: 15%;
+        word-break: break-all;
+    }
+    .c7{
+        width: 15%;
+        word-break: break-all;
+    }
+    .c1,.c2,.c3,.c4{
+        text-align: left;
+    }
+    .c5,.c6,.c7{
+        text-align: right;
+    }
+
+    .totalfist{
+        border-top: solid 1px;
+    }
+    .totallast{
+        border-bottom: solid 1px;
+    }
+    .totalfinal{
+        border-bottom: solid 2px;
+    }

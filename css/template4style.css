@@ -1,0 +1,173 @@
+    @media print {
+        html, body {
+            width: 210mm;
+            height: 297mm;
+            margin: auto;
+        }
+        .table-cont{
+            /* width: 100%; */
+            width: 210mm;
+            height: 297mm;
+            margin-top: 5px !important;
+            page-break-before:always !important;  
+            font-size: 10pt; 
+            clear: both;
+        }
+        .title{
+            width: 35%;
+            margin: auto;
+            text-align: center;
+        }
+        .h1 h1{
+            padding: 0;
+            margin: 0;
+        }
+        .h2{
+            padding: 0;
+            margin: 0;
+        }
+        .h1{
+            border-bottom: solid 2pt black;
+        }
+        .h2{
+            border-top: solid 4pt black;
+            margin-top: 5px;
+        }
+        .tabletop1label{            
+            width: 100%;
+            overflow: auto;
+            margin: 15px auto 0;
+        }
+        .tabletop1label div{
+            display: inline-block;
+            width: 32.7%;
+            margin-bottom: 3px;
+        }
+        .pag3{
+            text-align: right;
+        }
+        table{
+            width: 100%;
+            margin: auto;
+            padding: 0 !important;
+            border-collapse: collapse;    
+            border: solid 1px rgb(83, 83, 83);
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        thead tr{
+            border:solid 1px rgb(83, 83, 83);
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        thead th{
+            border: solid 1px rgb(83, 83, 83) !important;
+            text-align: center !important;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        tbody td{
+            text-align: center;
+            padding: 2.5px 5px;
+        }
+        td div{
+            margin: auto;
+        }
+       .trcontent .c1{
+            width: 30%;
+            word-wrap: break-word;
+            text-align: left;
+        }
+        .trcontent .c2,.trcontent .c3,
+        .trcontent .c4{
+            width: 23%;
+            text-align: right;
+            word-wrap: break-word;
+        }
+    }
+
+    html, body {
+        width: 210mm;
+        height: 297mm;
+        margin: auto;
+    }
+    .table-cont{
+        /* width: 100%; */
+        width: 210mm;
+        height: 297mm;
+        margin-top: 5px !important;
+        page-break-before:always !important;  
+        font-size: 10pt; 
+        clear: both;
+    }
+    .title{
+        width: 35%;
+        margin: auto;
+        text-align: center;
+    }
+    .h1 h1{
+        padding: 0;
+        margin: 0;
+    }
+    .h2{
+        padding: 0;
+        margin: 0;
+    }
+    .h1{
+        border-bottom: solid 2pt black;
+    }
+    .h2{
+        border-top: solid 4pt black;
+        margin-top: 5px;
+    }
+    .tabletop1label{            
+        width: 100%;
+        overflow: auto;
+        margin: 15px auto 0;
+    }
+    .tabletop1label div{
+        display: inline-block;
+        width: 32.7%;
+        margin-bottom: 3px;
+    }
+    .pag3{
+        text-align: right;
+    }
+    table{
+        width: 100%;
+        margin: auto;
+        padding: 0 !important;
+        border-collapse: collapse;    
+        border: solid 1px rgb(83, 83, 83);
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    thead tr{
+        border:solid 1px rgb(83, 83, 83);
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    thead th{
+        border: solid 1px rgb(83, 83, 83) !important;
+        text-align: center !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    tbody td{
+        text-align: center;
+        padding: 2.5px 5px;
+    }
+    td div{
+        margin: auto;
+    }
+   .trcontent .c1{
+        width: 30%;
+        word-wrap: break-word;
+        text-align: left;
+    }
+    .trcontent .c2,.trcontent .c3,
+    .trcontent .c4{
+        width: 23%;
+        text-align: right;
+        word-wrap: break-word;
+    }

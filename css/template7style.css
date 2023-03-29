@@ -1,0 +1,455 @@
+    @media print {
+        html, body {
+            width: 210mm;
+            height: 297mm;
+            margin: auto;
+        }
+        /* .main{
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            border: solid 1px;
+        } */
+        .table-cont{
+            /* width: 100%; */
+            width: 210mm;
+            height: 297mm;
+            margin-top: 0 !important;
+            page-break-before:always !important;   
+        }
+        .title{
+            width: 100%;
+            margin: -10px auto;
+            text-align: center;
+            display: block;
+        }
+        .h1{
+            font-size: 12pt;
+        }
+        .h2{
+            margin-top: -15px;
+            letter-spacing: 4px;
+        }
+        .tabletop1label{            
+            width: 100%;
+            overflow: auto;
+        }
+        .tabletop1label div{
+            display: block;
+            float: left;
+            width: 220px;
+            font-weight: bold;
+            margin-bottom: 3px;
+            margin-left: 2%;
+        }
+        .pag1{
+            font-size: 8pt;
+        }
+        .pag2{
+            margin-left: 5%;
+            padding-left: 5%;
+        }
+        .pag3{
+            text-align: right;
+        }
+        table{
+            width: 100%;
+            margin: auto;
+            padding: 0 !important;
+            border-collapse: collapse;        
+            font-size: 10pt;
+        }
+        tbody tr, thead tr{
+            border-bottom: solid 1px;
+            border-top: solid 1px;
+        }
+        thead th{
+            text-align: center !important;
+        }
+        thead th:first-child,tbody td:first-child{
+            border-left: transparent !important;
+        }
+        thead th:last-child,tbody td:last-child{
+            border-right: transparent !important;
+        }
+        tbody td{
+            padding: 1.5px 5px;
+        }
+        .label{
+            text-align: left;
+            padding: 5px 5px;
+        }
+        .trcontent td, .trcontent-head td{
+            border:solid 1px black;
+        }
+    
+        thead tr .theadlabel1-tr,
+        thead tr .theadlabel1-tr td{
+            border: 0 !important;
+        }
+        .trcontent-head{
+            font-weight: bolder;
+        }
+    
+        /* set 1 row */
+        .set1 div{
+            margin: auto;
+        }    
+        .set1 .trcontent .c1,
+        .set1 .trcontent .c3,
+        .set1 .trcontent .c5{
+            width: 10%;
+            word-wrap: break-word;
+        }
+        .set1 .trcontent .c2{
+            width: 30%;
+            word-wrap: break-word;
+        }
+        .set1 .trcontent .c4{
+            width: 15%;
+            word-wrap: break-word;
+        }
+        .set1 .trcontent .c6{
+            width: 25%;
+            word-wrap: break-word;          
+        }
+        .set1 .trcontent td{
+            padding: 0 5px;
+        }
+    
+        /* set 2 row */
+        .set2 div{
+            margin: auto;
+        }
+        .set2 .trcontent .c1{
+            width: 30%;
+            word-break:break-all;
+        }
+        .set2 .trcontent .c2{
+            width: 10%;
+            word-break:break-all;
+        }
+        .set2 .trcontent .c3{
+            width: 20%;
+            word-break:break-all;
+        }
+        .set2 .trcontent .c4{
+            width: 20%;
+            word-break:break-all;
+        }
+        .set2 .trcontent .c5{
+            width: 5%;
+            word-break:break-all;
+        }
+        .set2 .trcontent-head{
+            text-align: center;
+        }
+        
+    
+        /* set 3 row */    
+        .set3 div{
+            margin: auto;
+        }
+        .set3 .trcontent-head div{
+            height: auto;
+        }
+        .set3 .c1{        
+            width: 8%;
+            word-break:break-all;
+        }
+        .set3 .c5{
+            border-right: 0;
+            word-break:break-all;
+        }
+        .set3 .trcontent .c1{
+            width: 5%;
+            word-break:break-all;
+        }
+        .set3 .trcontent .c2,.set3 .trcontent .c3{
+            width: 15%;
+            word-break:break-all;
+        }
+        .set3 .trcontent .c4,.set3 .trcontent .c5,
+        .set3 .trcontent .c6{
+            width: 19.66%;
+            word-break:break-all;
+        }
+        
+        .set5 .c1{
+            width: 5%;
+            word-break: break-all;
+        }
+        .set5 .c2{
+            width: 12%;
+            word-break: break-all;
+        }
+        .set5 .c3,.set5 .c4,.set5 .c5{
+            width: 27.66%;
+            word-break: break-all;
+        }
+    
+        .set6 .c1{
+            width: 10%;
+            word-break: break-all;
+        }
+        .set6 .c2,.set6 .c3,.set6 .c4,.set6 .c5,.set6 .c6{
+            width: 18%;
+            word-break: break-all;
+        }
+    
+    
+        .trh1,.trh2{
+            width: 100%;
+            display: block;
+        }
+        .trh2 ul {
+            width: auto;
+            padding: 0;
+            margin-left: -15px;
+        }
+        .trh2 ul li{
+            list-style: none;
+            float: left;
+            width: 19% !important;
+            margin: auto;
+            text-align: right;
+        }
+        .notediv{
+            border: solid 1px black;
+            border-left: solid transparent;
+            border-top: solid transparent;
+            width: 150px;
+            text-align: center;
+            margin-left: 20px;
+        }
+        .docnotefooter{
+            text-align: right;
+            padding-right: 20px;        
+            font-size: 9pt;
+            margin-top: 0;
+        }
+    }
+
+    html, body {
+        width: 210mm;
+        height: 297mm;
+        margin: auto;
+    }
+    .table-cont{
+        /* width: 100%; */
+        width: 210mm;
+        height: 297mm;
+        margin-top: 0 !important;
+        page-break-before:always !important;   
+    }
+    .title{
+        width: 100%;
+        margin: -10px auto;
+        text-align: center;
+        display: block;
+    }
+    .h1{
+        font-size: 12pt;
+    }
+    .h2{
+        margin-top: -15px;
+        letter-spacing: 4px;
+    }
+    .tabletop1label{            
+        width: 100%;
+        overflow: auto;
+    }
+    .tabletop1label div{
+        display: block;
+        float: left;
+        width: 220px;
+        font-weight: bold;
+        margin-bottom: 3px;
+        margin-left: 2%;
+    }
+    .pag1{
+        font-size: 8pt;
+    }
+    .pag2{
+        margin-left: 5%;
+        padding-left: 5%;
+    }
+    .pag3{
+        text-align: right;
+    }
+    table{
+        width: 100%;
+        margin: auto;
+        padding: 0 !important;
+        border-collapse: collapse;        
+        font-size: 10pt;
+    }
+    tbody tr, thead tr{
+        border-bottom: solid 1px;
+        border-top: solid 1px;
+    }
+    thead th{
+        text-align: center !important;
+    }
+    thead th:first-child,tbody td:first-child{
+        border-left: transparent !important;
+    }
+    thead th:last-child,tbody td:last-child{
+        border-right: transparent !important;
+    }
+    tbody td{
+        padding: 1.5px 5px;
+    }
+    .label{
+        text-align: left;
+        padding: 5px 5px;
+    }
+    .trcontent td, .trcontent-head td{
+        border:solid 1px black;
+    }
+
+    thead tr .theadlabel1-tr,
+    thead tr .theadlabel1-tr td{
+        border: 0 !important;
+    }
+    .trcontent-head{
+        font-weight: bolder;
+    }
+
+    /* set 1 row */
+    .set1 div{
+        margin: auto;
+    }    
+    .set1 .trcontent .c1,
+    .set1 .trcontent .c3,
+    .set1 .trcontent .c5{
+        width: 10%;
+        word-wrap: break-word;
+    }
+    .set1 .trcontent .c2{
+        width: 30%;
+        word-wrap: break-word;
+    }
+    .set1 .trcontent .c4{
+        width: 15%;
+        word-wrap: break-word;
+    }
+    .set1 .trcontent .c6{
+        width: 25%;
+        word-wrap: break-word;          
+    }
+    .set1 .trcontent td{
+        padding: 0 5px;
+    }
+
+    /* set 2 row */
+    .set2 div{
+        margin: auto;
+    }
+    .set2 .trcontent .c1{
+        width: 30%;
+        word-break:break-all;
+    }
+    .set2 .trcontent .c2{
+        width: 10%;
+        word-break:break-all;
+    }
+    .set2 .trcontent .c3{
+        width: 20%;
+        word-break:break-all;
+    }
+    .set2 .trcontent .c4{
+        width: 20%;
+        word-break:break-all;
+    }
+    .set2 .trcontent .c5{
+        width: 5%;
+        word-break:break-all;
+    }
+    .set2 .trcontent-head{
+        text-align: center;
+    }
+    
+
+    /* set 3 row */    
+    .set3 div{
+        margin: auto;
+    }
+    .set3 .trcontent-head div{
+        height: auto;
+    }
+    .set3 .c1{        
+        width: 8%;
+        word-break:break-all;
+    }
+    .set3 .c5{
+        border-right: 0;
+        word-break:break-all;
+    }
+    .set3 .trcontent .c1{
+        width: 5%;
+        word-break:break-all;
+    }
+    .set3 .trcontent .c2,.set3 .trcontent .c3{
+        width: 15%;
+        word-break:break-all;
+    }
+    .set3 .trcontent .c4,.set3 .trcontent .c5,
+    .set3 .trcontent .c6{
+        width: 19.66%;
+        word-break:break-all;
+    }
+    
+    .set5 .c1{
+        width: 5%;
+        word-break: break-all;
+    }
+    .set5 .c2{
+        width: 12%;
+        word-break: break-all;
+    }
+    .set5 .c3,.set5 .c4,.set5 .c5{
+        width: 27.66%;
+        word-break: break-all;
+    }
+
+    .set6 .c1{
+        width: 10%;
+        word-break: break-all;
+    }
+    .set6 .c2,.set6 .c3,.set6 .c4,.set6 .c5,.set6 .c6{
+        width: 18%;
+        word-break: break-all;
+    }
+
+
+    .trh1,.trh2{
+        width: 100%;
+        display: block;
+    }
+    .trh2 ul {
+        width: auto;
+        padding: 0;
+        margin-left: -15px;
+    }
+    .trh2 ul li{
+        list-style: none;
+        float: left;
+        width: 19% !important;
+        margin: auto;
+        text-align: right;
+    }
+    .notediv{
+        border: solid 1px black;
+        border-left: solid transparent;
+        border-top: solid transparent;
+        width: 150px;
+        text-align: center;
+        margin-left: 20px;
+    }
+    .docnotefooter{
+        text-align: right;
+        padding-right: 20px;        
+        font-size: 9pt;
+        margin-top: 0;
+    }
